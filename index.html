@@ -1,50 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Fixed Be Gone</title>
+    <title>Cris Kiri - Web Dev Journey</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="HTML, CSS, Javascript" />
-    <meta name="description" content="Get rid of that fixed mindset" />
+    <meta name="description" content="Web Development Journey" />
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <div class="grid-container">
-      <div class="header">header</div>
-      <div class="blog">
-        <div class="flex-container">
-          <div class="card">
-            <p>Date</p>
-            <p>Blog Title</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div class="card">
-            <p>Date</p>
-            <p>Blog Title</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div class="card">
-            <p>Date</p>
-            <p>Blog Title</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-        </div>
+    <!-- GRID CONTAINER -->
+    <div id="main-container">
+      <!-- HEADER -->
+      <div id="header">
+        <span>CK</span>
       </div>
-      <div class="sidebar">
-        <div class="card">
-          <p>Welcome</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-            illo vitae placeat quibusdam harum tenetur beatae adipisci quaerat
-            ex, id, autem et non corporis nihil in itaque nam vero temporibus?
-          </p>
-        </div>
-        <div class="card">
-          <p><a href="blog/te-houtaewa-template.html">Te Houtaewa</a></p>
-        </div>
+      <!-- NAVBAR -->
+      <div id="navbar">
+        <ul>
+          <li><a href="#">tech</a></li>
+          <li><a href="#">core</a></li>
+          <li><a href="#">about</a></li>
+        </ul>
       </div>
-      <div class="footer">footer</div>
+      <!-- WELCOME -->
+      <div id="greetings">
+        <h1>Welcome</h1>
+        <p>
+          Come join me on my journey on becoming the world's best web developer
+          in <span class="linethrough">the</span> my world. It only takes a few
+          seconds to go through my site (by design), so you have nothing to
+          lose.
+        </p>
+      </div>
+      <!-- CONTENT -->
+      <div id="section">
+        <h2>Latest Post</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+          doloremque aperiam fuga. Ut magnam dolorum dignissimos similique et
+          id, quaerat sed? Cupiditate corporis, at necessitatibus sit repellat
+          adipisci. Ipsum, alias.
+        </p>
+      </div>
+      <!-- FOOTER -->
+      <div id="footer">
+        <img src="images/github.png" alt="github" />
+        <img src="images/discord.png" alt="discord" />
+        <img src="images/facebook.png" alt="facebook" />
+      </div>
     </div>
   </body>
 </html>
