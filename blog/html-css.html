@@ -46,11 +46,67 @@
         </h3>
         <p>23 June 2023</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-          doloremque aperiam fuga. Ut magnam dolorum dignissimos similique et
-          id, quaerat sed? Cupiditate corporis, at necessitatibus sit repellat
-          adipisci. Ipsum, alias.
+          Let's start by explaining what is a class and what is an id... Take a
+          school. Each school has many staff members that contribute to the
+          running of it and each have member has different attributes defining
+          who they are as a person and requirements that determine how they can
+          best deliver the teaching curriculum to their classes. Some staff
+          teach students, some may run the cafeteria to feed the many hungry
+          mouths, while a lone caretaker keeps the premises in tip-top shape and
+          presentable. There can be many members with the same role, while there
+          can be those with a role no-one else should have ie there can be many
+          teachers but only one Principal and only one caretaker. In HTML & CSS,
+          classes can be applied to many elements to give them different
+          properties, while an id is given to a single element because you want
+          it to standout. Below is an example:
         </p>
+        <p>HTML</p>
+        <pre>
+  &lt;div class="teacher" id="principal"&gt;Mr Skinner&lt;/div&gt;
+  &lt;div class="teacher"&gt;Mrs Crabapple&lt;/div&gt;
+  &lt;div class="cafeteria-worker"&gt;Lunchlady Doris&lt;/div&gt;
+  &lt;div id="caretaker"&gt;Groundskeeper Willy&lt;/div&gt;
+        </pre>
+        <p>CSS</p>
+        <pre>
+  .teacher {
+    mood: auto; 
+    salary: 50%;
+  } 
+  .cafeteria-worker { 
+    mood: grumpy;
+    uniform: apron;
+  }
+  #principal { 
+    mood: chirpy;
+    salary: none;
+  }
+  #caretaker { 
+    mood: on-edge;
+    body-odor: aye; 
+  }
+        </pre>
+        <p>
+          As you can see in the example, elements are not resticted to just one
+          class or id. To tell you the truth, this rule where an id must belong
+          to a single element is not enforced but we'll now look at some reasons
+          as to why you may not want to. Best practices It is best to use a
+          class when you have elements that share styling and use an id for an
+          element that is unique to every page such as a header or a footer.
+          Imagine having to apply styling to each element you can save so much
+          time with reuse alone. How to manage your code is definitely a topic
+          worth investing in. If you are looking at using Javascript with your
+          website, it is in your best interest to use classes and ids as
+          intended as specific functions in Javascript may not give the desired
+          output if this rule is not adhered to. Well I don't want to take up
+          any more of your time so get out there and make your mark on the
+          world.
+        </p>
+        <img
+          class="content-image"
+          src="../images/grease.gif"
+          alt="get willy some grease"
+        />
       </div>
       <!-- FOOTER -->
       <div id="footer">
