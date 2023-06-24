@@ -27,6 +27,7 @@
   --font-size-body-standout: 1.5em;
   --font-size-body: 1.25em;
   --font-size-fineprint: 0.8em;
+  --font-size-code: 0.6em;
 
   /* PADDING SIZES */
   /* TODO: change names to reflect where used */
@@ -157,6 +158,20 @@ p {
   padding: 20px 0 20px 0;
 }
 
+pre {
+  background-color: var(--color-dark-alt);
+  color: var(--color-light-alt);
+  font-size: var(--font-size-code);
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  padding: 0.8em;
+}
+
+.content-image {
+  width: 350px;
+  height: auto;
+}
+
 #footer {
   background-color: var(--color-dark-alt);
   grid-area: footer;
@@ -177,5 +192,10 @@ p {
 
   #main-container {
     width: 100vw;
+  }
+
+  .content-image {
+    width: 200px;
+    height: auto;
   }
 }
