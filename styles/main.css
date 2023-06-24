@@ -22,12 +22,13 @@
   /* FONT SIZES */
   /* TODO: change names to reflect where used */
   --font-size-title: 3em;
-  --font-size-large: 2em;
-  --font-size-mid: 1.75em;
-  --font-size-body-standout: 1.5em;
-  --font-size-body: 1.25em;
-  --font-size-fineprint: 0.8em;
-  --font-size-code: 0.6em;
+  --font-size-heading-largest: 2em;
+  --font-size-heading-large: 1.75em;
+  --font-size-heading-regular: 1.5em;
+  --font-size-body-standout: 1.25em;
+  --font-size-body: 1em;
+  --font-size-code: 0.8em;
+  --font-size-fineprint: 0.6em;
 
   /* PADDING SIZES */
   /* TODO: change names to reflect where used */
@@ -52,13 +53,20 @@ h1 {
 
 h2 {
   font-family: var(--font-type-heading-main);
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-heading-largest);
   color: var(--color-main-alternate);
 }
 
 h3 {
   font-family: var(--font-type-heading-alt);
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-heading-large);
+  text-align: center;
+  color: var(--color-accent-3);
+}
+
+h4 {
+  font-family: var(--font-type-heading-alt);
+  font-size: var(--font-size-heading-regular);
   text-align: center;
   color: var(--color-accent-3);
 }
@@ -100,7 +108,7 @@ h3 {
   justify-content: space-around;
   padding: 0 5% 0 5%;
   font-family: var(--font-type-heading-alt);
-  font-size: var(--font-size-mid);
+  font-size: var(--font-size-heading-regular);
   color: var(--color-light);
 }
 
@@ -155,7 +163,7 @@ a:hover {
 }
 
 p {
-  padding: 20px 0 20px 0;
+  padding: 15px 0 15px 0;
 }
 
 pre {
@@ -177,7 +185,7 @@ pre {
   grid-area: footer;
   height: 100px;
   align-items: center;
-  padding: var(--font-size-mid) 0 var(--font-size-mid) 0;
+  padding: var(--font-size-body) 0 var(--font-size-body) 0;
 }
 
 #footer img {
