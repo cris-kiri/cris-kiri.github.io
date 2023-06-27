@@ -166,6 +166,10 @@ p {
   padding: 15px 0 15px 0;
 }
 
+ul.body-list {
+  padding-left: 3rem;
+}
+
 pre {
   background-color: var(--color-dark-alt);
   color: var(--color-light-alt);
