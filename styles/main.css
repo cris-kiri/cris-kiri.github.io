@@ -69,6 +69,7 @@ h4 {
   font-size: var(--font-size-heading-regular);
   text-align: center;
   color: var(--color-accent-3);
+  margin-top: 2rem;
 }
 
 .linethrough {
@@ -166,8 +167,16 @@ p {
   padding: 15px 0 15px 0;
 }
 
-ul.body-list {
-  padding-left: 3rem;
+ul {
+  margin-left: 1rem;
+}
+
+.body-image {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 pre {
