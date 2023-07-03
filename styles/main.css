@@ -212,7 +212,8 @@ td {
 
 th,
 td {
-  padding: 15px;
+  padding-inline: 0.5rem;
+  padding-block: 0.3rem;
   text-align: left;
 }
 
