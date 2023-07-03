@@ -204,6 +204,27 @@ pre {
   height: auto;
 }
 
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: var(--color-accent);
+  color: var(--color-light-alt);
+}
+
+tr:nth-child(even) {
+  background-color: var(--color-light);
+}
+
 #footer {
   background-color: var(--color-dark-alt);
   grid-area: footer;
