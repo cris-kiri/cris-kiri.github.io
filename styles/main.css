@@ -121,22 +121,25 @@ h4 {
 }
 
 a {
-  text-underline-offset: 5px;
   text-decoration: none;
 }
 
-a:visited {
+a,
+a:visited,
+a:hover,
+a:active {
   color: inherit;
 }
 
-.menu-link {
-  text-decoration: none;
-}
-
 a:hover {
+  text-underline-offset: 5px;
   text-decoration: underline;
   text-decoration-color: var(--color-accent);
 }
+
+/* .menu-link {
+  text-decoration: none;
+} */
 
 #greetings {
   grid-area: greetings;
