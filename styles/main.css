@@ -67,7 +67,7 @@ h3 {
 h4 {
   font-family: var(--font-type-heading-alt);
   font-size: var(--font-size-heading-regular);
-  text-align: center;
+  text-align: start;
   color: var(--color-accent-3);
   margin-top: 2rem;
 }
@@ -167,7 +167,7 @@ a:hover {
 }
 
 p {
-  padding: 15px 0 15px 0;
+  padding: 5px 0 5px 0;
 }
 
 ul {
