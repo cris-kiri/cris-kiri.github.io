@@ -63,6 +63,7 @@ h3 {
   font-size: var(--font-size-heading-large);
   text-align: center;
   color: var(--color-accent-3);
+  margin-inline: 2rem;
 }
 
 h4 {
