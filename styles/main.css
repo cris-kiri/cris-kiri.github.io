@@ -41,8 +41,9 @@
 body {
   background-color: var(--color-light);
   font-family: var(--font-type-body);
-  font-size: 12pt;
+  font-size: 1.15rem;
   color: var(--color-dark);
+  /* height: 100vh; */
 }
 
 h1 {
@@ -77,9 +78,10 @@ h4 {
 }
 
 #main-container {
-  width: 60vw;
+  width: 100%;
   margin: auto;
   display: grid;
+  position: relative;
   grid-template-areas:
     'header header'
     'greetings greetings'
@@ -102,6 +104,7 @@ h4 {
   align-items: center;
   padding: 15px;
   background-color: var(--color-dark-alt);
+  /* width: 60vw; */
 }
 
 #navbar {
@@ -170,7 +173,8 @@ p {
   padding: 5px 0 5px 0;
 }
 
-ul {
+ul,
+ol {
   margin-left: 1rem;
 }
 
@@ -229,19 +233,21 @@ tr:nth-child(even) {
 #footer {
   background-color: var(--color-dark-alt);
   grid-area: footer;
-  height: 100px;
   align-items: center;
+  width: 100%;
+  bottom: 0;
   padding: var(--font-size-body) 0 var(--font-size-body) 0;
 }
 
 #footer img {
   width: 60px;
   padding: 15px 0 15px 0;
+  margin-top: auto;
 }
 
 @media (max-width: 856px) {
   body {
-    font-size: 6pt;
+    font-size: 0.8rem;
   }
 
   #main-container {
